@@ -111,6 +111,7 @@ import paraTen from "./para10.js"
     }
     signUp.push(obj)
     localStorage.setItem("login",JSON.stringify(signUp))
+    window.location.href="signin.html"
  })
 
  // navbar script
